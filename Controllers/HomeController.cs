@@ -8,6 +8,10 @@ namespace WebApplication1.Controllers
 {
     public class HomeController : Controller
     {
+        /// <summary>
+        /// This is Index 
+        /// </summary>
+        /// <returns></returns>
         public ActionResult Index()
         {
             return View();
